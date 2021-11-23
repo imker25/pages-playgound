@@ -6,4 +6,5 @@ Repository to play with github pages and learn how they work
 
 See how `*.md` files gets converted.
 
-
+Add a image<br>
+![Screenshot of a terminal](./img/Console.png)
