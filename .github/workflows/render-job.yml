@@ -17,6 +17,11 @@ jobs:
           #mkdocs_version: '1.1' # option
           requirements: 'build/pages/requirements.txt' # option
           configfile: 'build/pages/mkdocs.yml' # option
+      - name: Add other stuff to pages
+        run: |
+              siteRoot="build/pages/site"    
+              mkdir -p "$siteRoot/repositories/debian"
+              echo "Here a debian repository can be hosted" > $siteRoot/repositories/debian/readme
       - name: Deploy to pages
         uses: peaceiris/actions-gh-pages@v3
         with:
