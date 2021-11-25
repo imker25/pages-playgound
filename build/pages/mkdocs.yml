@@ -1,8 +1,10 @@
 site_name: Imker's GutHub Pages playground
 site_url: https://imker25.github.io/pages-playgound
+docs_dir: ./../../docs
 
 nav:
-  - Introduction: './../../README.md'
+  - Start Page: './index.md'
+  - Introduction: './../README.md'
   - Source: 'https://github.com/imker25/pages-playgound'
 
 theme:

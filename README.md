@@ -1,5 +1,5 @@
 # pages-playgound
-<<<<<<< HEAD
+
 Repository to play with github pages and learn how they work
 
 See <https://imker25.github.io/pages-playgound>, to see what gets rendered during the rendering.

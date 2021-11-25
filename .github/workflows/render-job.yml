@@ -10,14 +10,14 @@ jobs:
     steps:
       - name: Checkout 
         uses: actions/checkout@v2
-      - name: Build
+      - name: Build docs
         uses: Tiryoh/actions-mkdocs@v0
         with:
           mkdocs_version: 'latest' # option
           #mkdocs_version: '1.1' # option
           requirements: 'build/pages/requirements.txt' # option
           configfile: 'build/pages/mkdocs.yml' # option
-      - name: Deploy
+      - name: Deploy to pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
