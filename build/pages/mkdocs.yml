@@ -1,0 +1,16 @@
+site_name: Imker's GutHub Pages playground
+site_url: https://imker25.github.io/pages-playgound
+
+nav:
+  - Introduction: './../../README.md'
+  - Source: 'https://github.com/imker25/pages-playgound'
+
+theme:
+    name: mkdocs
+    locale: en
+    highlightjs: true
+
+markdown_extensions:
+    toc:
+        permalink: true
+    admonition: {}
