@@ -16,3 +16,8 @@ markdown_extensions:
     toc:
         permalink: true
     admonition: {}
+
+plugins:
+  - search
+  - mermaid2:
+    version: 8.6.4

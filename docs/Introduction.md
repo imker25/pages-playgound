@@ -19,3 +19,13 @@ ls -l ./tmp
 ```
 
 The readme now is stored in the `docs` folder and linked to the repositories root, since the mkdocs action will not follow links.
+
+### Mermaid diagrams
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
