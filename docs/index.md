@@ -2,4 +2,5 @@
 
 Repository to play with github pages and learn how they work.
 
-Try again
+Add a image:
+![Screenshot of a terminal](./img/Console.png)
