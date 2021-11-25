@@ -20,6 +20,7 @@ jobs:
       - name: Add other stuff to pages
         run: |
               siteRoot="build/pages/site"    
+              sudo chmod -R 777 "$siteRoot"
               mkdir -p "$siteRoot/repositories/debian"
               echo "Here a debian repository can be hosted" > $siteRoot/repositories/debian/readme
       - name: Deploy to pages
