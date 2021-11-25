@@ -4,7 +4,7 @@ docs_dir: ./../../docs
 
 nav:
   - Start Page: './index.md'
-  - Introduction: './../README.md'
+  - Introduction: './ReadMe.md'
   - Source: 'https://github.com/imker25/pages-playgound'
 
 theme:
