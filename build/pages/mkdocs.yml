@@ -18,6 +18,4 @@ markdown_extensions:
     admonition: {}
 
 plugins:
-  - search
   - mermaid2:
-    version: 8.6.4
