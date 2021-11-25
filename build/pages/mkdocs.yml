@@ -18,4 +18,5 @@ markdown_extensions:
     admonition: {}
 
 plugins:
+  - search:
   - mermaid2:
