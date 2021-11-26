@@ -8,7 +8,7 @@ nav:
   - Source: 'https://github.com/imker25/pages-playgound'
 
 theme:
-    name: mkdocs
+    name: material
     locale: en
     highlightjs: true
 
